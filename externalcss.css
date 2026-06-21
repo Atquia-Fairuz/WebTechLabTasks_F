@@ -1,0 +1,17 @@
+label{
+    font-weight: bold;
+}
+label{
+    font-style: italic;
+}
+textarea{
+    resize: none;
+}
+ input[type="radio"] {
+    width: auto;
+}
+input[type="checkbox"] {
+    width: auto;
+}
+
+ }

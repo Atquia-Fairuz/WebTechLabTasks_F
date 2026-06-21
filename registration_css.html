@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration page</title>
+
+<link rel="stylesheet" href="externalcss.css">
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: rgba(77, 136, 163, 0.233);
+    }
+
+    h1{
+        text-align: center;
+        color: black;
+    }
+
+form{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow:8px 8px 0px 0px #000000;
+}
+
+input,
+textarea,
+select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+</style>
+
+    </head>
+<body>
+    
+
+    <h1 style="text-decoration: underline;">
+        Registration Form
+    </h1>
+
+    <form action="#" method="post">
+
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone number:</label><br>
+    <input type="number" id="phone" name="phone" required><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="gender" name="gender" value="Male">
+    <label for="option1">Male</label>
+
+    <input type="radio" id="gender" name="gender" value="Female">
+    <label for="option1">Female</label>
+
+    <input type="radio" id="gender" name="gender" value="Other">
+    <label for="option1">Other</label><br><br>
+
+    <label for="dateofbirth">Date of Birth:</label><br>
+    <input type="date" id="dateofbirth" name="dateofbirth" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="password">Confirm Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" column="20" required></textarea><br><br>
+
+    <label for="department">Department:</label><br>
+    <select>
+        <option value="CSE">CSE</option>
+        <option value="EEE">EEE</option>
+        <option value="ARCH">ARCH</option>
+        <option value="ENGLISH">ENGLISH</option>
+        <option value="BBA">BBA</option>
+
+    </select><br><br>
+
+    <input type="radio" required><label>I agree with the term and conditions</label><br><br>
+
+    <input type="submit" value="Register" style="background-color: green; color:white;"><br>
+    <input type="reset" value="Reset" style="background-color: red; color:white;"><br>
+</form>
+
+<div class="thank-you-message">
+    Thank you for submitting the form!☺️
+    
+</div>
+<style>
+    .thank-you-message {
+        text-align: center;
+        color: black;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+</style>
+</body>
+</html>
